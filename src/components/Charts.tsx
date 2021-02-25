@@ -1,8 +1,7 @@
 import React,{ useState } from "react";
 import Chart from 'react-apexcharts'
-// import "./App.css";
 
-function Charts() {
+const Charts = () => {
   const [state, setState] = useState({
     options: {
       chart: {
@@ -29,14 +28,5 @@ function Charts() {
     />
   );
 }
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Charts />
-      </header>
-    </div>
-  );
-}
 
-export default App;
+export default Charts
