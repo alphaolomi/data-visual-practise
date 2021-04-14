@@ -1,8 +1,8 @@
-import React,{ useState } from "react";
+import React from "react";
 import Chart from 'react-apexcharts'
 
 const Charts = () => {
-  const [state, setState] = useState({
+  const [state] = React.useState({
     options: {
       chart: {
         id: "apexchart-example",
