@@ -1,13 +1,3 @@
 # Data visualization
 
-- Tables
-- Charts
-
-
-# Author
-
-Alpha Olomi @alphaolomi
-
-# License
-
-MIT License
+- Data charts using [Apex Charts](https://apexcharts.com/docs/react-charts/)
