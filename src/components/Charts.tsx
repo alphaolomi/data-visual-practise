@@ -1,8 +1,8 @@
-import React from "react";
-import Chart from 'react-apexcharts'
+import { useState } from "react";
+import Chart from "react-apexcharts";
 
 const Charts = () => {
-  const [state] = React.useState({
+  const [state] = useState({
     options: {
       chart: {
         id: "apexchart-example",
@@ -19,14 +19,23 @@ const Charts = () => {
     ],
   });
   return (
-    <Chart
-      options={state.options}
-      series={state.series}
-      type="bar"
-      width={500}
-      height={320}
-    />
+    <figure
+      style={{
+        margin: "0",
+      }}
+    >
+    
+          <Chart
+            options={state.options}
+            series={state.series}
+            type="bar"
+            width={500}
+            height={320}
+          />
+    
+      <figcaption>A chart of data</figcaption>
+    </figure>
   );
-}
+};
 
-export default Charts
+export default Charts;

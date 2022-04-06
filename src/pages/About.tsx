@@ -1,17 +1,16 @@
 import Page from "../layout/Page";
-import Charts from "../components/Charts";
 
 /**
  * About Page
  * @returns {JSX.Element}
  */
-const Home = () => {
+const About = () => {
   return (
     <Page>
-        <h1>Home</h1>
-      <Charts />
+      <h1 className="">About</h1>
+      <p>Version v3.0.0</p>
     </Page>
   );
 };
 
-export default Home;
+export default About;
