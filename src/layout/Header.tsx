@@ -18,6 +18,7 @@ const Header = ({ title }: HeaderProps) => {
       >
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/chart">Chart</Link>
       </nav>
     </header>
   );
